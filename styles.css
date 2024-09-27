@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #ffebcd;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.panda-info, .panda-gallery {
+    margin-bottom: 20px;
+}
+
+.panda-gallery .gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.panda-gallery img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ffebcd;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
